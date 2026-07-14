@@ -24,3 +24,9 @@ colorscheme gruvbox
 
 " Enable spellcheck
 set spell spelllang=en_us
+
+" Run prettier on save for JavaScript files
+autocmd BufWritePre *.js,*.ts Prettier
+
+" Run `terraform fmt` on save for Terraform files
+autocmd BufWritePre *.tf TerraformFmt
