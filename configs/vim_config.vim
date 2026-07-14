@@ -14,7 +14,7 @@ autocmd VimEnter * if !argc() | NERDTree | endif
 let g:NERDTreeWinPos = "left"
 
 " Ignore list of NERDTree nodes
-let g:NERDTreeIgnore = ["^bazel-*","^\.git$","\.DS_Store","^\.vagrant","^\dist"]
+let g:NERDTreeIgnore = ["^bazel-*","^\.git$","\.DS_Store","^\.vagrant","^\.bazelcache","^\.terraform","^node_modules$","^__pycache__$","tags"]
 
 " Show hidden files in NERDTree explorer
 let g:NERDTreeShowHidden = 1
