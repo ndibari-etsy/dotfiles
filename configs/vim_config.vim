@@ -21,7 +21,7 @@ let g:NERDTreeShowHidden = 1
 
 " Set color scheme
 "" Need to set fallback so gVim is used to color underlined words
-"" "(ex in the case of misspellings)
+"" (ex in the case of misspellings)
 let g:gruvbox_guisp_fallback = 'fg'
 
 colorscheme gruvbox
